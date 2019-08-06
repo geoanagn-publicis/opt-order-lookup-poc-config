@@ -1,0 +1,43 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Find the status of Orders.",
+          "examplePhrases": [
+            "Alexa, open Order Lookup",
+            "Alexa, start Order Lookup"
+          ],
+          "keywords": [
+            "directory",
+            "alexa team",
+            "phone book"
+          ],
+          "name": "OPT Order Lookup",
+          "description": "Find the status of OPT orders.\n\nOrder lookup can find the status of your order easily.\n\nTo start, just say \"Alexa, start Order Lookup\" or \"Alexa, open Order Lookup\" to start your search\".\n\nAt any time, you can stop the search by saying \"Alexa, stop\""
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Include your testing instruction (if any) here",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "opt-order-lookup-poc-dev"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
